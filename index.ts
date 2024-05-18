@@ -4,6 +4,9 @@ import moment from "moment-timezone";
 
 const template = Handlebars.compile(await Bun.file("README.template").text());
 
+const emojis = ["😊", "😄", "😇", "👀"];
+const choosenEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+
 const weather = (await axios.get(`https://api.open-meteo.com/v1/forecast?latitude=${process.env.WEATHER_LATITUDE}&longitude=${process.env.WEATHER_LONGITUDE}&current=temperature,rain,snowfall,cloud_cover&hourly=temperature,rain,snowfall&daily=sunrise,sunset&timezone=GMT&forecast_days=1`)).data;
 const weatherHuman = `${weather.current.temperature} °C and ${weather.current.rain ? "rainy 🌧️" : weather.current.snowfall ? "snowy 🌨️" : weather.current.cloud_cover > 95 ? "cloudy ☁️" : weather.current.cloud_cover > 85 ? "partially cloudy 🌥️" : weather.current.cloud_cover > 75 ? "partially cloudy ⛅" : "sunny ☀️"}`;
 
@@ -14,6 +17,8 @@ const localTimeHuman = localTime.hour() < 23 && localTime.hour() > moment(weathe
 const codeStats = (await axios.get(process.env.WAKATIME_JSON_EMBED_URL as string)).data;
 
 const data = {
+  emoji: localTime.hour() >= 22 ? "😴" : choosenEmoji,
+
   time: localTimeHuman,
   weather: weatherHuman,
 
