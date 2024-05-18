@@ -1,0 +1,27 @@
+name: Generate README.md File
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 /*6 * * *"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Bun Runtime
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: "1.0.0"
+      - name: Install Dependencies
+        run: bun install --production
+      - name: Generate README.md File
+        run: bun run index.ts
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: "README.md"
+          message: "Generated `README.md`"
