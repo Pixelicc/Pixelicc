@@ -33,4 +33,4 @@ jobs:
         with:
           add: "README.md"
           message: "Generated `README.md`"
-          default_author: "github_acitons"
+          default_author: "github_actions"
