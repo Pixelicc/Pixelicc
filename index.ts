@@ -4,7 +4,7 @@ import moment from "moment-timezone";
 
 const template = Handlebars.compile(await Bun.file("README.template").text());
 
-const weather = (await axios.get(`https://api.open-meteo.com/v1/dwd-icon?latitude=${process.env.WEATHER_LATITUDE}&longitude=${process.env.WEATHER_LONGITUDE}&current=temperature,rain,snowfall,cloud_cover&hourly=temperature,rain,snowfall&daily=sunrise,sunset&timezone=GMT&forecast_days=1`)).data;
+const weather = (await axios.get(`https://api.open-meteo.com/v1/forecast?latitude=${process.env.WEATHER_LATITUDE}&longitude=${process.env.WEATHER_LONGITUDE}&current=temperature,rain,snowfall,cloud_cover&hourly=temperature,rain,snowfall&daily=sunrise,sunset&timezone=GMT&forecast_days=1`)).data;
 const weatherHuman = `${weather.current.temperature} °C and ${weather.current.rain ? "rainy 🌧️" : weather.current.snowfall ? "snowy 🌨️" : weather.current.cloud_cover > 95 ? "cloudy ☁️" : weather.current.cloud_cover > 85 ? "partially cloudy 🌥️" : weather.current.cloud_cover > 75 ? "partially cloudy ⛅" : "sunny ☀️"}`;
 
 const localTime = moment().tz(process.env.TIMEZONE as string);
