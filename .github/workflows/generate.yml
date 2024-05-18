@@ -8,6 +8,9 @@ on:
   schedule:
     - cron: "0 */6 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -30,3 +33,4 @@ jobs:
         with:
           add: "README.md"
           message: "Generated `README.md`"
+          default_author: "github_acitons"
