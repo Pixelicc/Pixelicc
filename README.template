@@ -1,4 +1,4 @@
-<h1>Hii! I'm Pixelic {{emoji}}</h1>
+<h1>Hii! I'm Pixelic {{emoji}}<img src="{{yHypeTracker}}"></h1>
 
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
@@ -34,7 +34,7 @@ My best day was on {{bestDayCodingDate}} with {{bestDayCodingTime}}.
   <img alt="Prettier" src="https://img.shields.io/badge/Prettier-f7b93e?style=flat-square&logo=prettier&logoColor=white">
 </p>
 
----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file is generated <b>every 6 hours</b>!</br>
 Last refresh: {{lastRefresh}}<br />

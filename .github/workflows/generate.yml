@@ -28,6 +28,7 @@ jobs:
           WEATHER_LONGITUDE: ${{ secrets.WEATHER_LONGITUDE }}
           WEATHER_LATITUDE: ${{ secrets.WEATHER_LATITUDE }}
           WAKATIME_JSON_EMBED_URL: ${{ secrets.WAKATIME_JSON_EMBED_URL }}
+          YHYPE_TRACKER_URL: "https://hit.yhype.me/github/profile?user_id=69585766"
           TIMEZONE: "Europe/Berlin"
       - uses: EndBug/add-and-commit@v9
         with:

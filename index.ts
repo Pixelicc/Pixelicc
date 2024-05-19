@@ -27,6 +27,7 @@ const data = {
   bestDayCodingDate: new Date(codeStats.data.best_day.date).toLocaleDateString("en-GB"),
   bestDayCodingTime: codeStats.data.best_day?.text,
 
+  yHypeTracker: process.env.YHYPE_TRACKER_URL,
   lastRefresh: new Date().toLocaleString("en-GB") + " (GMT/UTC)",
 };
 
