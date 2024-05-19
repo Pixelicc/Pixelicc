@@ -47,6 +47,6 @@ My best day was on {{bestDayCodingDate}} with {{bestDayCodingTime}}.
 
 ------------------------------------------------------------------
 <p align="center">
-This <b>README.md</b> file is generated <b>every 6 hours</b>!</br>
+This <b>README.md</b> file is generated <b>every 4 hours</b>!</br>
 Last refresh: {{lastRefresh}}<br />
 </p>
