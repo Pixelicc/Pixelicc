@@ -17,7 +17,7 @@ const localTimeHuman = localTime.hour() < 23 && localTime.hour() > moment(weathe
 const codeStats = (await axios.get(process.env.WAKATIME_JSON_EMBED_URL as string)).data;
 
 const data = {
-  emoji: localTime.hour() >= 22 ? "😴" : choosenEmoji,
+  emoji: localTime.hour() >= 22 || localTime.hour() < 6 ? "😴" : choosenEmoji,
 
   time: localTimeHuman,
   weather: weatherHuman,
