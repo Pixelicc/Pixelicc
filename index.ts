@@ -16,6 +16,8 @@ const localTimeHuman = localTime.hour() < 23 && localTime.hour() > moment(weathe
 
 const codeStats = (await axios.get(process.env.WAKATIME_JSON_EMBED_URL as string)).data;
 
+const homelabStats = (await axios.get(process.env.HOMELAB_API_URL as string)).data;
+
 const data = {
   emoji: localTime.hour() >= 22 || localTime.hour() < 6 ? "😴" : choosenEmoji,
 
@@ -26,6 +28,12 @@ const data = {
   averageTimeSpentCoding: codeStats.data.grand_total.human_readable_daily_average,
   bestDayCodingDate: new Date(codeStats.data.best_day.date).toLocaleDateString("en-GB"),
   bestDayCodingTime: codeStats.data.best_day?.text,
+
+  homelabUptime: homelabStats.metrics.uptime.replaceAll(" ", "_"),
+  homelabPower: homelabStats.metrics.power.current,
+  homelabCpuUsed: homelabStats.metrics.cpu.usedPercentage.slice(0, -1),
+  homelabRamTotal: homelabStats.metrics.ram.total,
+  homelabRamUsed: homelabStats.metrics.ram.used,
 
   yHypeTracker: process.env.YHYPE_TRACKER_URL,
   lastRefresh: new Date().toLocaleString("en-GB") + " (GMT/UTC)",
