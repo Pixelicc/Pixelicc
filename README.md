@@ -1,11 +1,11 @@
-<h1>Hii! I'm Pixelic 😄</h1>
+<h1>Hii! I'm Pixelic 👀<img src="https://hit.yhype.me/github/profile?user_id&#x3D;69585766"></h1>
 
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
 
 I currently reside in Germany,<br />
-and it's 09:47 in the morning,<br />
-with temperatures of 14.1 °C and rainy 🌧️ weather.
+and it's 10:15 in the morning,<br />
+with temperatures of 14.4 °C and partially cloudy 🌥️ weather.
 
 In total I have coded for 857 hrs 8 mins with an average of 2 hrs 31 mins a day.
 My best day was on 11/07/2023 with 12 hrs 8 mins.
@@ -34,8 +34,8 @@ My best day was on 11/07/2023 with 12 hrs 8 mins.
   <img alt="Prettier" src="https://img.shields.io/badge/Prettier-f7b93e?style=flat-square&logo=prettier&logoColor=white">
 </p>
 
----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file is generated <b>every 6 hours</b>!</br>
-Last refresh: 19/05/2024, 07:47:18 (GMT/UTC)<br />
+Last refresh: 19/05/2024, 08:15:12 (GMT/UTC)<br />
 </p>
