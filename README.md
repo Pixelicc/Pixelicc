@@ -1,13 +1,13 @@
-<h1>Hii! I'm Pixelic 😄</h1>
+<h1>Hii! I'm Pixelic 👀</h1>
 
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
 
 I currently reside in Germany,<br />
-and it's 03:25 during the night,<br />
-with temperatures of 12.8 °C and cloudy ☁️ weather.
+and it's 08:23 in the morning,<br />
+with temperatures of 13.4 °C and rainy 🌧️ weather.
 
-In total I have coded for 852 hrs 50 mins with an average of 2 hrs 31 mins a day.
+In total I have coded for 857 hrs 8 mins with an average of 2 hrs 31 mins a day.
 My best day was on 11/07/2023 with 12 hrs 8 mins.
 </p>
 
@@ -37,5 +37,5 @@ My best day was on 11/07/2023 with 12 hrs 8 mins.
 ---------------------------------------------------------------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file is generated <b>every 6 hours</b>!</br>
-Last refresh: 19/05/2024, 01:25:28 (GMT/UTC)<br />
+Last refresh: 19/05/2024, 06:23:22 (GMT/UTC)<br />
 </p>
