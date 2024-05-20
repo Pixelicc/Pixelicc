@@ -4,8 +4,8 @@
 I'm a mainly back-end developer that occasionally does some front-end.
 
 I currently reside in Germany,<br />
-and it's 22:17 in the evening,<br />
-with temperatures of 14.8 °C and cloudy ☁️ weather.
+and it's 03:13 during the night,<br />
+with temperatures of 13.9 °C and partially cloudy 🌥️ weather.
 
 In total I have coded for 857 hrs 8 mins with an average of 2 hrs 31 mins a day.
 My best day was on 11/07/2023 with 12 hrs 8 mins.
@@ -38,15 +38,15 @@ My best day was on 11/07/2023 with 12 hrs 8 mins.
 <summary>Homelab</summary>
 <p>
   <img alt="Uptime" src="https://img.shields.io/badge/Uptime-2_months-pink">
-  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-24W-green">
+  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-22W-green">
   </br></br>
-  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-3.36%25-orange">
-  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-18.20GB/31.30GB-blue">
+  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-2.63%25-orange">
+  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-17.96GB/31.30GB-blue">
 </p>
 </details>
 
 ------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file is generated <b>every 4 hours</b>!</br>
-Last refresh: 19/05/2024, 20:17:24 (GMT/UTC)<br />
+Last refresh: 20/05/2024, 01:13:42 (GMT/UTC)<br />
 </p>
