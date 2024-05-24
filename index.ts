@@ -33,6 +33,8 @@ const data = {
   homelabCpuUsed: homelabStats.metrics.cpu.usedPercentage.slice(0, -1),
   homelabRamTotal: homelabStats.metrics.ram.total,
   homelabRamUsed: homelabStats.metrics.ram.used,
+  homelabDiskTotal: homelabStats.metrics.disk.total,
+  homelabDiskUsed: homelabStats.metrics.disk.used,
 
   yHypeTracker: process.env.YHYPE_TRACKER_URL,
   lastRefresh: new Date().toLocaleString("en-GB") + " (GMT/UTC)",

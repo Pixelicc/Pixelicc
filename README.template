@@ -67,6 +67,7 @@ _Definitely not a configuration that I would recommend to normal users._
   </br></br>
   <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-{{homelabCpuUsed}}%25-orange">
   <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-{{homelabRamUsed}}/{{homelabRamTotal}}-blue">
+  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-{{homelabDiskUsed}}/{{homelabDiskTotal}}-purple">
 </p>
 </details>
 </br>
