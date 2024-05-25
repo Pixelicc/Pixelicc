@@ -42,7 +42,7 @@ My best day was on {{bestDayCodingDate}} with {{bestDayCodingTime}}.
 - CPU: AMD Ryzen 9 5950x (16C/32T)
 - GPU: NVIDIA RTX 3060 Ti (8GB)
 - RAM: 64GB 3600MT/s
-- Storage: 1.5TB NVME (0.5TB Gen4 + 1TB Gen3)
+- Storage: 1.5TB NVME (0.5TB Gen4 + 1.0TB Gen3)
 - Operating System: Windows 11
 
 _Definitely not a configuration that I would recommend to normal users._
