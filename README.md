@@ -4,8 +4,8 @@
 I'm a mainly back-end developer that occasionally does some front-end.
 
 I currently reside in Germany,<br />
-and it's 06:20 in the morning,<br />
-with temperatures of 8.6 °C and sunny ☀️ weather.
+and it's 10:21 in the morning,<br />
+with temperatures of 14.4 °C and sunny ☀️ weather.
 
 In total I have coded for 884 hrs 50 mins with an average of 2 hrs 30 mins a day.
 My best day was on 11/07/2023 with 12 hrs 8 mins.
@@ -63,11 +63,11 @@ _Definitely not a configuration that I would recommend to normal users._
 <h3>Metrics:</h3>
 <p>
   <img alt="Uptime" src="https://img.shields.io/badge/Uptime-3_months-pink">
-  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-31W-green">
+  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-24W-green">
   </br></br>
-  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-1.66%25-orange">
-  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-19.35GB/31.30GB-blue">
-  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-687.12GB/1936.97GB-purple">
+  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-4.33%25-orange">
+  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-19.50GB/31.30GB-blue">
+  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-687.30GB/1936.97GB-purple">
 </p>
 </details>
 </br>
@@ -82,5 +82,5 @@ _Definitely not a configuration that I would recommend to normal users._
 ------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file is generated <b>every 4 hours</b>!</br>
-Last refresh: 13/06/2024, 04:20:45 (GMT/UTC)<br />
+Last refresh: 13/06/2024, 08:21:52 (GMT/UTC)<br />
 </p>
