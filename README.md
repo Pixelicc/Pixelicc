@@ -1,11 +1,11 @@
-<h1>Hii! I'm Pixelic 👀<img src="https://hit.yhype.me/github/profile?user_id&#x3D;69585766"></h1>
+<h1>Hii! I'm Pixelic 😇<img src="https://hit.yhype.me/github/profile?user_id&#x3D;69585766"></h1>
 
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
 
 I currently reside in Germany,<br />
-and it's 14:33 in the afternoon,<br />
-with temperatures of 20 °C and cloudy ☁️ weather.
+and it's 15:23 in the evening,<br />
+with temperatures of 18.95 °C and rainy 🌧️ weather.
 
 In total I have coded for 891 hrs 13 mins with an average of 2 hrs 31 mins a day.
 My best day was on 11/07/2023 with 12 hrs 8 mins.
@@ -15,23 +15,31 @@ My best day was on 11/07/2023 with 12 hrs 8 mins.
 <h3>Languages:</h3>
 <p>
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white">
-  <img alt="HTML" src="https://img.shields.io/badge/HTML-e34f26?style=flat-square&logo=html5&logoColor=white">
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white">
+<img alt="HTML" src="https://img.shields.io/badge/HTML-e34f26?style=flat-square&logo=html5&logoColor=white">
+</p>
+
+<h3>Frameworks:</h3>
+<p>
+  <img alt="Vue" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white">
+<img alt="Nuxt" src="https://img.shields.io/badge/Nuxt.js-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white">
+<img alt="Express.js" src="https://img.shields.io/badge/Express.js-gray?style=flat-square&logo=Express&logoColor=white">
+<img alt="Elysia.js" src="https://img.shields.io/badge/Elysia.js-gray?style=flat-square&logo=Bun&logoColor=white">
 </p>
 
 <h3>Databases:</h3>
 <p>
-  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-00684A?style=flat-square&logo=mongodb&logoColor=white">
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-d82c20?style=flat-square&logo=redis&logoColor=white">
+ <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-00684A?style=flat-square&logo=mongodb&logoColor=white">
+<img alt="Redis" src="https://img.shields.io/badge/Redis-d82c20?style=flat-square&logo=redis&logoColor=white">
 </p>
 
 <h3>Tools:</h3>
 <p>
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-1d63ed?style=flat-square&logo=docker&logoColor=white">
-  <img alt="NPM" src="https://img.shields.io/badge/NPM-db3837?style=flat-square&logo=npm&logoColor=white">
-  <img alt="JSR" src="https://img.shields.io/badge/JSR-f7df1e?style=flat-square&logo=jsr&logoColor=gray">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/Github_Actions-6e5494?style=flat-square&logo=github-actions&logoColor=white">
-  <img alt="Prettier" src="https://img.shields.io/badge/Prettier-f7b93e?style=flat-square&logo=prettier&logoColor=white">
+  <img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual_Studio_Code-0098FF?style=flat-square&logo=visual-studio-code&logoColor=white">
+<img alt="Prettier" src="https://img.shields.io/badge/Prettier-f7b93e?style=flat-square&logo=prettier&logoColor=white">
+<img alt="Docker" src="https://img.shields.io/badge/Docker-1d63ed?style=flat-square&logo=docker&logoColor=white">
+<img alt="GitHub" src="https://img.shields.io/badge/Github-6e5494?style=flat-square&logo=github&logoColor=white">
+<img alt="GitHub Actions" src="https://img.shields.io/badge/Github_Actions-6e5494?style=flat-square&logo=github-actions&logoColor=white">
 </p>
 
 <details>
@@ -39,11 +47,10 @@ My best day was on 11/07/2023 with 12 hrs 8 mins.
 
 <h3>Configuration:</h3>
 
-- CPU: AMD Ryzen 9 5950x (16C/32T)
-- GPU: NVIDIA RTX 3060 Ti (8GB)
-- RAM: 64GB 3600MT/s
-- Storage: 1.5TB NVME (0.5TB Gen4 + 1.0TB Gen3)
-- Operating System: Windows 11
+- CPU: AMD Ryzen 9 5950X
+- GPU: Gigabyte NVIDIA RTX 3060 Ti VISION 8G
+- RAM: G.Skill Trident Z Royal Silver 64GB DDR4 3600MT/s
+- Storage: Samsung 980 Pro 500GB + Samsung 970 Evo Plus 1TB
 
 _Definitely not a configuration that I would recommend to normal users._
 
@@ -54,33 +61,33 @@ _Definitely not a configuration that I would recommend to normal users._
 
 <h3>Configuration:</h3>
 
-- CPU: AMD Ryzen 7 7840HS (8C/16T)
-- GPU: Integrated Radeon 780M
-- RAM: 32GB 3600MT/s
-- Storage: 6.0TB (2.0TB NVME Gen3 + 4.0TB HDD)
-- Operating System: Proxmox (Debian)
+- CPU: AMD Ryzen 7 7840HS
+- GPU: Radeon 780M
+- RAM: Crucial 32GB DDR4 3600MT/s
+- Storage: Samsung 970 EVO Plus 2TB
 
 <h3>Metrics:</h3>
 <p>
-  <img alt="Uptime" src="https://img.shields.io/badge/Uptime-3_months-pink">
-  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-27W-green">
+  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-24W-green">
   </br></br>
-  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-2.00%25-orange">
-  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-19.39GB/31.30GB-blue">
-  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-682.56GB/1936.97GB-purple">
+  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-2.53%25-orange">
+  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-19.44GB/32GB-blue">
+  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-682.56GB/2000GB-purple">
 </p>
 </details>
 </br>
 <details>
 <summary>Contact</summary>
 <p>
-  Discord: <a href="https://discord.pixelic.dev">discord.pixelic.dev</a><br/>
-  E-Mail: <a href="mailto:contact@pixelic.dev">contact@pixelic.dev</a>
+  
+𝕏 (Twitter): <a href="https://twitter.pixelic.dev">@Pixelicc</a><br/>
+E-Mail: <a href="mailto://contact@pixelic.dev">contact@pixelic.dev</a><br/>
+Discord Server: <a href="https://discord.pixelic.dev">discord.pixelic.dev</a><br/>
 </p>
 </details>
 
 ------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file is generated <b>every 4 hours</b>!</br>
-Last refresh: 17/06/2024, 12:33:35 (GMT/UTC)<br />
+Last refresh: 17/06/2024, 13:23:02 (GMT/UTC)<br />
 </p>
