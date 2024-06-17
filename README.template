@@ -14,24 +14,22 @@ My best day was on {{bestDayCodingDate}} with {{bestDayCodingTime}}.
 <h2>Skills:</h2>
 <h3>Languages:</h3>
 <p>
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white">
-  <img alt="HTML" src="https://img.shields.io/badge/HTML-e34f26?style=flat-square&logo=html5&logoColor=white">
+  {{{codingSkillLanguages}}}
+</p>
+
+<h3>Frameworks:</h3>
+<p>
+  {{{codingSkillFrameworks}}}
 </p>
 
 <h3>Databases:</h3>
 <p>
-  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-00684A?style=flat-square&logo=mongodb&logoColor=white">
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-d82c20?style=flat-square&logo=redis&logoColor=white">
+ {{{codingSkillDatabases}}}
 </p>
 
 <h3>Tools:</h3>
 <p>
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-1d63ed?style=flat-square&logo=docker&logoColor=white">
-  <img alt="NPM" src="https://img.shields.io/badge/NPM-db3837?style=flat-square&logo=npm&logoColor=white">
-  <img alt="JSR" src="https://img.shields.io/badge/JSR-f7df1e?style=flat-square&logo=jsr&logoColor=gray">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/Github_Actions-6e5494?style=flat-square&logo=github-actions&logoColor=white">
-  <img alt="Prettier" src="https://img.shields.io/badge/Prettier-f7b93e?style=flat-square&logo=prettier&logoColor=white">
+  {{{codingSkillTools}}}
 </p>
 
 <details>
@@ -39,11 +37,10 @@ My best day was on {{bestDayCodingDate}} with {{bestDayCodingTime}}.
 
 <h3>Configuration:</h3>
 
-- CPU: AMD Ryzen 9 5950x (16C/32T)
-- GPU: NVIDIA RTX 3060 Ti (8GB)
-- RAM: 64GB 3600MT/s
-- Storage: 1.5TB NVME (0.5TB Gen4 + 1.0TB Gen3)
-- Operating System: Windows 11
+- CPU: {{setupCPU}}
+- GPU: {{setupGPU}}
+- RAM: {{setupRAM}}
+- Storage: {{setupStorage}}
 
 _Definitely not a configuration that I would recommend to normal users._
 
@@ -54,28 +51,25 @@ _Definitely not a configuration that I would recommend to normal users._
 
 <h3>Configuration:</h3>
 
-- CPU: AMD Ryzen 7 7840HS (8C/16T)
-- GPU: Integrated Radeon 780M
-- RAM: 32GB 3600MT/s
-- Storage: 6.0TB (2.0TB NVME Gen3 + 4.0TB HDD)
-- Operating System: Proxmox (Debian)
+- CPU: {{homelabCPU}}
+- GPU: {{homelabGPU}}
+- RAM: {{homelabRAM}}
+- Storage: {{homelabStorage}}
 
 <h3>Metrics:</h3>
 <p>
-  <img alt="Uptime" src="https://img.shields.io/badge/Uptime-{{homelabUptime}}-pink">
-  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-{{homelabPower}}-green">
+  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-{{homelabPower}}W-green">
   </br></br>
   <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-{{homelabCpuUsed}}%25-orange">
-  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-{{homelabRamUsed}}/{{homelabRamTotal}}-blue">
-  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-{{homelabDiskUsed}}/{{homelabDiskTotal}}-purple">
+  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-{{homelabRamUsed}}GB/{{homelabRamTotal}}GB-blue">
+  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-{{homelabDiskUsed}}GB/{{homelabDiskTotal}}GB-purple">
 </p>
 </details>
 </br>
 <details>
 <summary>Contact</summary>
 <p>
-  Discord: <a href="https://discord.pixelic.dev">discord.pixelic.dev</a><br/>
-  E-Mail: <a href="mailto:contact@pixelic.dev">contact@pixelic.dev</a>
+  {{{socials}}}
 </p>
 </details>
 

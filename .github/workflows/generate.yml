@@ -6,7 +6,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "30 */3 30 * *"
 
 permissions:
   contents: write
@@ -21,16 +21,12 @@ jobs:
         with:
           bun-version: "1.0.0"
       - name: Install Dependencies
-        run: bun install --production
+        run: bun install --frozen-lockfile --production
       - name: Generate README.md File
         run: bun run index.ts
         env:
-          WEATHER_LONGITUDE: ${{ secrets.WEATHER_LONGITUDE }}
-          WEATHER_LATITUDE: ${{ secrets.WEATHER_LATITUDE }}
-          WAKATIME_JSON_EMBED_URL: ${{ secrets.WAKATIME_JSON_EMBED_URL }}
-          HOMELAB_API_URL: ${{ secrets.HOMELAB_API_URL }}
+          PERSONAL_API_TOKEN: ${{ secrets.PERSONAL_API_TOKEN }}
           YHYPE_TRACKER_URL: "https://hit.yhype.me/github/profile?user_id=69585766"
-          TIMEZONE: "Europe/Berlin"
       - uses: EndBug/add-and-commit@v9
         with:
           add: "README.md"

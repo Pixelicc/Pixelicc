@@ -1,45 +1,89 @@
 import Handlebars from "handlebars";
 import axios from "axios";
-import moment from "moment-timezone";
 
-const template = Handlebars.compile(await Bun.file("README.template").text());
+try {
+  const template = Handlebars.compile(await Bun.file("README.template").text());
 
-const emojis = ["😊", "😄", "😇", "👀"];
-const choosenEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+  const [{ location }, { statistics: codingStatistics }, { skills: codingSkills }, { specs: setupSpecs }, { specs: homelabSpecs }, { metrics: homelabMetrics }, { socials }] = (
+    await Promise.all([
+      axios.get("https://api.pixelic.dev/v2/location", {
+        headers: {
+          Authorization: process.env.PERSONAL_API_TOKEN,
+        },
+      }),
+      axios.get("https://api.pixelic.dev/v2/coding/statistics"),
+      axios.get("https://api.pixelic.dev/v2/coding/skills"),
+      axios.get("https://api.pixelic.dev/v2/setup/specs"),
+      axios.get("https://api.pixelic.dev/v2/homelab/specs"),
+      axios.get("https://api.pixelic.dev/v2/homelab/metrics"),
+      axios.get("https://api.pixelic.dev/v2/socials"),
+    ])
+  ).map((res) => res.data);
 
-const localTime = moment().tz(process.env.TIMEZONE as string);
-const localClock = localTime.format("HH:mm");
-const weather = (await axios.get(`https://api.open-meteo.com/v1/forecast?latitude=${process.env.WEATHER_LATITUDE}&longitude=${process.env.WEATHER_LONGITUDE}&current=temperature,rain,snowfall,cloud_cover&hourly=temperature,rain,snowfall&daily=sunrise,sunset&timezone=GMT&forecast_days=1`)).data;
-const weatherHuman = `${weather.current.temperature} °C and ${weather.current.rain ? "rainy 🌧️" : weather.current.snowfall ? "snowy 🌨️" : weather.current.cloud_cover > 95 ? "cloudy ☁️" : weather.current.cloud_cover > 85 ? "partially cloudy 🌥️" : weather.current.cloud_cover > 75 ? "partially cloudy ⛅" : localTime.hour() > moment(weather.daily.sunset[0]).hour() ? "clear" : "sunny ☀️"}`;
-const localTimeHuman = localTime.hour() < 23 && localTime.hour() > moment(weather.daily.sunset[0]).hour() - 1 ? `${localClock} in the evening` : localTime.hour() > 12 ? `${localClock} in the afternoon` : localTime.hour() > moment(weather.daily.sunrise[0]).hour() ? `${localClock} in the morning` : `${localClock} during the night`;
+  const emojis: string[] = ["😊", "😄", "😇", "👀"];
+  const time: number[] = location.time.time.split(":").map((value: string) => Number(value));
 
-const codeStats = (await axios.get(process.env.WAKATIME_JSON_EMBED_URL as string)).data;
+  const weatherHuman = `${location.weather.temperature.current} °C and ${location.weather.isRaining ? "rainy 🌧️" : location.weather.isSnowing ? "snowy 🌨️" : location.weather.cloudCover > 95 ? "cloudy ☁️" : location.weather.cloudCover > 85 ? "partially cloudy 🌥️" : location.weather.cloudCover > 75 ? "partially cloudy ⛅" : "clear"}`;
+  const timeHuman = time[0] < 23 && time[0] > Number(new Date(location.weather.sunset).toLocaleTimeString().split(":")[0]) - 1 ? `${time[0]}:${time[1]} in the evening` : time[0] > 12 ? `${time[0]}:${time[1]} in the afternoon` : time[0] > Number(new Date(location.weather.sunrise).toLocaleTimeString().split(":")[0]) ? `${time[0]}:${time[1]} in the morning` : `${time[0]}:${time[1]} during the night`;
 
-const homelabStats = (await axios.get(process.env.HOMELAB_API_URL as string)).data;
+  let setupDisks = "";
+  for (const i in setupSpecs.disks) {
+    setupDisks += setupSpecs.disks[i].name;
+    if (Number(i) + 1 !== setupSpecs.disks.length) setupDisks += " + ";
+  }
+  let homelabDisks = "";
+  for (const i in homelabSpecs.disks) {
+    homelabDisks += homelabSpecs.disks[i].name;
+    if (Number(i) + 1 !== homelabSpecs?.disks?.length) homelabDisks += " + ";
+  }
 
-const data = {
-  emoji: localTime.hour() >= 22 || localTime.hour() < 6 ? "😴" : choosenEmoji,
+  const data = {
+    emoji: time[0] >= 21 || time[0] < 5 ? "😴" : emojis[Math.floor(Math.random() * emojis.length)],
 
-  time: localTimeHuman,
-  weather: weatherHuman,
+    time: timeHuman,
+    weather: weatherHuman,
 
-  totalTimeSpentCoding: codeStats.data.grand_total.human_readable_total,
-  averageTimeSpentCoding: codeStats.data.grand_total.human_readable_daily_average,
-  bestDayCodingDate: new Date(codeStats.data.best_day.date).toLocaleDateString("en-GB"),
-  bestDayCodingTime: codeStats.data.best_day?.text,
+    totalTimeSpentCoding: codingStatistics.total.timeHuman,
+    averageTimeSpentCoding: codingStatistics.average.timeHuman,
+    bestDayCodingDate: new Date(codingStatistics.bestDay.date).toLocaleDateString("en-GB"),
+    bestDayCodingTime: codingStatistics.bestDay.timeHuman,
 
-  homelabUptime: homelabStats.metrics.uptime.replaceAll(" ", "_"),
-  homelabPower: homelabStats.metrics.power.current,
-  homelabCpuUsed: homelabStats.metrics.cpu.usedPercentage.slice(0, -1),
-  homelabRamTotal: homelabStats.metrics.ram.total,
-  homelabRamUsed: homelabStats.metrics.ram.used,
-  homelabDiskTotal: homelabStats.metrics.disk.total,
-  homelabDiskUsed: homelabStats.metrics.disk.used,
+    // @ts-ignore
+    codingSkillLanguages: codingSkills.languages.map((lang) => `<img alt="${lang.name}" src="${lang.badge}">`).join("\n"),
+    // @ts-ignore
+    codingSkillFrameworks: codingSkills.frameworks.map((framework) => `<img alt="${framework.name}" src="${framework.badge}">`).join("\n"),
+    // @ts-ignore
+    codingSkillDatabases: codingSkills.databases.map((database) => `<img alt="${database.name}" src="${database.badge}">`).join("\n"),
+    // @ts-ignore
+    codingSkillTools: codingSkills.tools.map((tool) => `<img alt="${tool.name}" src="${tool.badge}">`).join("\n"),
 
-  yHypeTracker: process.env.YHYPE_TRACKER_URL,
-  lastRefresh: new Date().toLocaleString("en-GB") + " (GMT/UTC)",
-};
+    setupCPU: setupSpecs.cpu.name,
+    setupGPU: setupSpecs.gpu.name,
+    setupRAM: setupSpecs.ram.name,
+    setupStorage: setupDisks,
 
-const output = template(data);
+    homelabCPU: homelabSpecs.cpu.name,
+    homelabGPU: homelabSpecs.cpu.specs.gpu,
+    homelabRAM: homelabSpecs.ram.name,
+    homelabStorage: homelabDisks,
 
-Bun.write("README.md", output);
+    homelabPower: homelabMetrics.power.currentUsage,
+    homelabCpuUsed: homelabMetrics.cpu.usedPercentage.toFixed(2),
+    homelabRamTotal: homelabMetrics.ram.capacity,
+    homelabRamUsed: homelabMetrics.ram.usedCapacity.toFixed(2),
+    // @ts-ignore
+    homelabDiskTotal: homelabMetrics.disks.reduce((acc, disk) => disk.capacity, 0),
+    // @ts-ignore
+    homelabDiskUsed: homelabMetrics.disks.reduce((acc, disk) => disk.usedCapacity, 0).toFixed(2),
+
+    // @ts-ignore
+    socials: socials.map((social) => (social.name !== "GitHub" ? `${social.name}: <a href="${social.url}">${social.text}</a><br/>` : "")).join("\n"),
+
+    yHypeTracker: process.env.YHYPE_TRACKER_URL,
+    lastRefresh: new Date().toLocaleString("en-GB") + " (GMT/UTC)",
+  };
+
+  const output = template(data);
+
+  Bun.write("README.md", output);
+} catch {}
