@@ -21,10 +21,10 @@ try {
   ).map((res) => res.data);
 
   const emojis: string[] = ["😊", "😄", "😇", "👀"];
-  const time: number[] = location.time.time.split(":").map((value: string) => Number(value));
+  const time: string[] = location.time.time.split(":");
 
   const weatherHuman = `${location.weather.temperature.current} °C and ${location.weather.isRaining ? "rainy 🌧️" : location.weather.isSnowing ? "snowy 🌨️" : location.weather.cloudCover > 95 ? "cloudy ☁️" : location.weather.cloudCover > 85 ? "partially cloudy 🌥️" : location.weather.cloudCover > 75 ? "partially cloudy ⛅" : "clear"}`;
-  const timeHuman = time[0] < 23 && time[0] > Number(new Date(location.weather.sunset).toLocaleTimeString().split(":")[0]) - 1 ? `${time[0]}:${time[1]} in the evening` : time[0] > 12 ? `${time[0]}:${time[1]} in the afternoon` : time[0] > Number(new Date(location.weather.sunrise).toLocaleTimeString().split(":")[0]) ? `${time[0]}:${time[1]} in the morning` : `${time[0]}:${time[1]} during the night`;
+  const timeHuman = Number(time[0]) < 23 && Number(time[0]) > Number(new Date(location.weather.sunset).toLocaleTimeString().split(":")[0]) - 1 ? `${time[0]}:${time[1]} in the evening` : Number(time[0]) > 12 ? `${time[0]}:${time[1]} in the afternoon` : Number(time[0]) > Number(new Date(location.weather.sunrise).toLocaleTimeString().split(":")[0]) ? `${time[0]}:${time[1]} in the morning` : `${time[0]}:${time[1]} during the night`;
 
   let setupDisks = "";
   for (const i in setupSpecs.disks) {
@@ -38,7 +38,7 @@ try {
   }
 
   const data = {
-    emoji: time[0] >= 21 || time[0] < 5 ? "😴" : emojis[Math.floor(Math.random() * emojis.length)],
+    emoji: Number(time[0]) >= 21 || Number(time[0]) < 5 ? "😴" : emojis[Math.floor(Math.random() * emojis.length)],
 
     country: location.country.name,
     time: timeHuman,
