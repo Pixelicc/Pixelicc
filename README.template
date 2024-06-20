@@ -1,4 +1,4 @@
-<h1>Hii! I'm Pixelic {{emoji}}<img src="{{yHypeTracker}}"></h1>
+<h1>Hii! I'm Pixelic {{emoji}}<img src="{{{yHypeTracker}}}"></h1>
 
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
