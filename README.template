@@ -76,5 +76,5 @@ _Definitely not a configuration that I would recommend to normal users._
 ------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file is generated <b>every 3 hours</b>!</br>
-Last refresh: {{lastRefresh}}<br />
+Last refresh: {{lastRefresh}}
 </p>
