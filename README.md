@@ -4,7 +4,7 @@
 I'm a mainly back-end developer that occasionally does some front-end.
 
 I currently reside in Germany,<br />
-and it's 14:51 in the evening,<br />
+and it's 15:34 in the evening,<br />
 with temperatures of 25.6 °C and clear weather.
 
 In total I have coded for 905 hrs 13 mins with an average of 2 hrs 30 mins a day.
@@ -68,10 +68,10 @@ _Definitely not a configuration that I would recommend to normal users._
 
 <h3>Metrics:</h3>
 <p>
-  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-23W-green">
+  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-26W-green">
   </br></br>
-  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-2.84%25-orange">
-  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-18.51GB/32GB-blue">
+  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-2.82%25-orange">
+  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-18.50GB/32GB-blue">
   <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-613.36GB/2000GB-purple">
 </p>
 </details>
@@ -89,5 +89,5 @@ Discord Server: <a href="https://discord.pixelic.dev">discord.pixelic.dev</a><br
 ------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file gets updated <b>every hour</b>!</br>
-Last update: 24/06/2024, 12:51:32 (GMT/UTC)
+Last update: 24/06/2024, 13:34:19 (GMT/UTC)
 </p>
