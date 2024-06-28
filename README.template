@@ -3,9 +3,8 @@
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
 
-I currently reside in {{country}},<br />
-and it's {{time}},<br />
-with temperatures of {{weather}} weather.
+I currently reside in {{country}} and it's {{time}}.<br />
+The weather here is {{weather}}.
 
 In total I have coded for {{totalTimeSpentCoding}} with an average of {{averageTimeSpentCoding}} a day.
 My best day was on {{bestDayCodingDate}} with {{bestDayCodingTime}}.
