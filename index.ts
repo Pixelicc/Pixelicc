@@ -24,7 +24,7 @@ try {
   const time: string[] = location.time.time.split(":");
 
   const weatherHuman = `${location.weather.isRaining ? "rainy 🌧️" : location.weather.isSnowing ? "snowy 🌨️" : location.weather.cloudCover > 95 ? "cloudy ☁️" : location.weather.cloudCover > 85 ? "partially cloudy 🌥️" : location.weather.cloudCover > 75 ? "partially cloudy ⛅" : "clear"} with temperatures of ${location.weather.temperature.current.toFixed(1)} °C`;
-  const timeHuman = Number(time[0]) < 23 && Number(time[0]) > Number(new Date(location.weather.sunset).toLocaleTimeString().split(":")[0]) - 1 ? `${time[0]}:${time[1]} in the evening` : Number(time[0]) > 12 ? `${time[0]}:${time[1]} in the afternoon` : Number(time[0]) > Number(new Date(location.weather.sunrise).toLocaleTimeString().split(":")[0]) ? `${time[0]}:${time[1]} in the morning` : `${time[0]}:${time[1]} during the night`;
+  const timeHuman = Number(time[0]) < 23 && Number(time[0]) > Number(new Date(location.weather.sunset).toLocaleTimeString("en-GB").split(":")[0]) - 1 ? `${time[0]}:${time[1]} in the evening` : Number(time[0]) > 12 ? `${time[0]}:${time[1]} in the afternoon` : Number(time[0]) > Number(new Date(location.weather.sunrise).toLocaleTimeString("en-GB").split(":")[0]) ? `${time[0]}:${time[1]} in the morning` : `${time[0]}:${time[1]} during the night`;
 
   let setupDisks = "";
   for (const i in setupSpecs.disks) {
