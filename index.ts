@@ -40,7 +40,7 @@ try {
   const data = {
     emoji: Number(time[0]) >= 21 || Number(time[0]) < 5 ? "😴" : emojis[Math.floor(Math.random() * emojis.length)],
 
-    country: location.country.name,
+    country: location.country.prefix ? `${location.country.prefix} ${location.country.name}` : location.country.name,
     time: timeHuman,
     weather: weatherHuman,
 
