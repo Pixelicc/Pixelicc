@@ -19,7 +19,7 @@ jobs:
       - name: Install Bun Runtime
         uses: oven-sh/setup-bun@v1
         with:
-          bun-version: "1.0.0"
+          bun-version: "1.1.22"
       - name: Install Dependencies
         run: bun install --frozen-lockfile --production
       - name: Generate README.md File
