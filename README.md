@@ -3,7 +3,7 @@
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
 
-I currently reside in Germany and it's 22:37 in the evening.<br />
+I currently reside in Germany and it's 23:34 in the afternoon.<br />
 The weather here is clear with temperatures of 13.8 °C.
 
 In total I have coded for 926 hrs 20 mins with an average of 2 hrs 23 mins a day.
@@ -67,11 +67,11 @@ _Definitely not a configuration that I would recommend to normal users._
 
 <h3>Metrics:</h3>
 <p>
-  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-32W-green">
+  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-53W-green">
   </br></br>
-  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-5.14%25-orange">
-  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-24.72GB/32GB-blue">
-  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-685.78GB/2000GB-purple">
+  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-9.44%25-orange">
+  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-24.83GB/32GB-blue">
+  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-685.79GB/2000GB-purple">
 </p>
 </details>
 </br>
@@ -88,5 +88,5 @@ Discord Server: <a href="https://discord.pixelic.dev">discord.pixelic.dev</a><br
 ------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file gets updated <b>every hour</b>!</br>
-Last update: 23/09/2024, 20:37:29 (GMT/UTC)
+Last update: 23/09/2024, 21:34:58 (GMT/UTC)
 </p>
