@@ -3,7 +3,7 @@
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
 
-I currently reside in Germany and it's 03:08 during the night.<br />
+I currently reside in Germany and it's 04:08 during the night.<br />
 The weather here is rainy 🌧️ with temperatures of 13.7 °C.
 
 In total I have coded for 968 hrs 53 mins with an average of 2 hrs 18 mins a day.
@@ -69,9 +69,9 @@ _Definitely not a configuration that I would recommend to normal users._
 <p>
   <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-40W-green">
   </br></br>
-  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-2.97%25-orange">
-  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-21.36GB/32GB-blue">
-  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-514.74GB/2000GB-purple">
+  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-2.89%25-orange">
+  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-21.37GB/32GB-blue">
+  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-514.75GB/2000GB-purple">
 </p>
 </details>
 </br>
@@ -87,5 +87,5 @@ Discord Server: <a href="https://discord.pixelic.dev">discord.pixelic.dev</a><br
 ------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file gets updated <b>every hour</b>!</br>
-Last update: 19/12/2024, 02:08:54 (GMT/UTC)
+Last update: 19/12/2024, 03:08:39 (GMT/UTC)
 </p>
