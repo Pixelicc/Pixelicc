@@ -1,12 +1,12 @@
-<h1>Hii! I'm Pixelic 😊<img src="https://hit.yhype.me/github/profile?user_id=69585766"></h1>
+<h1>Hii! I'm Pixelic 😇<img src="https://hit.yhype.me/github/profile?user_id=69585766"></h1>
 
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
 
-I currently reside in Germany and it's 08:34 during the night.<br />
-The weather here is clear with temperatures of 5.6 °C.
+I currently reside in Germany and it's 18:13 in the evening.<br />
+The weather here is cloudy ☁️ with temperatures of 3.4 °C.
 
-In total I have coded for 968 hrs 53 mins with an average of 2 hrs 18 mins a day.
+In total I have coded for 971 hrs 16 mins with an average of 2 hrs 17 mins a day.
 My best day was on 11/07/2023 with 12 hrs 8 mins.
 </p>
 
@@ -67,11 +67,11 @@ _Definitely not a configuration that I would recommend to normal users._
 
 <h3>Metrics:</h3>
 <p>
-  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-44W-green">
+  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-28W-green">
   </br></br>
-  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-17.38%25-orange">
-  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-28.10GB/32GB-blue">
-  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-483.28GB/2000GB-purple">
+  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-2.20%25-orange">
+  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-23.03GB/32GB-blue">
+  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-220.74GB/2000GB-purple">
 </p>
 </details>
 </br>
@@ -80,12 +80,11 @@ _Definitely not a configuration that I would recommend to normal users._
 <p>
   
 E-Mail: <a href="mailto://contact@pixelic.dev">contact@pixelic.dev</a><br/>
-Discord Server: <a href="https://discord.pixelic.dev">discord.pixelic.dev</a><br/>
 </p>
 </details>
 
 ------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file gets updated <b>every hour</b>!</br>
-Last update: 23/12/2024, 07:34:43 (GMT/UTC)
+Last update: 15/01/2025, 17:13:18 (GMT/UTC)
 </p>
