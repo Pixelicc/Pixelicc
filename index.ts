@@ -4,7 +4,7 @@ import axios from "axios";
 try {
   const template = Handlebars.compile(await Bun.file("README.template").text());
 
-  const [{ location }, { statistics: codingStatistics }, { skills: codingSkills }, { specs: setupSpecs }, { specs: homelabSpecs }, { metrics: homelabMetrics }, { socials }] = (
+  const [location, codingStatistics, codingSkills, setupSpecs, homelabSpecs, homelabMetrics, socials] = (
     await Promise.all([
       axios.get("https://api.pixelic.dev/v2/location", {
         headers: {
