@@ -3,8 +3,8 @@
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
 
-I currently reside in Germany and it's 21:42 in the evening.<br />
-The weather here is clear with temperatures of 0.1 °C.
+I currently reside in Germany and it's 22:38 in the evening.<br />
+The weather here is cloudy ☁️ with temperatures of 0.3 °C.
 
 In total I have coded for 1,015 hrs 40 mins with an average of 2 hrs 9 mins a day.
 My best day was on 11/07/2023 with 12 hrs 8 mins.
@@ -67,11 +67,11 @@ _Definitely not a configuration that I would recommend to normal users._
 
 <h3>Metrics:</h3>
 <p>
-  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-34W-green">
+  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-38W-green">
   </br></br>
-  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-6.55%25-orange">
-  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-36.38GB/80GB-blue">
-  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-877.96GB/2000GB-purple">
+  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-6.27%25-orange">
+  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-36.37GB/80GB-blue">
+  <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-877.97GB/2000GB-purple">
 </p>
 </details>
 </br>
@@ -86,5 +86,5 @@ E-Mail: <a href="mailto://contact@pixelic.dev">contact@pixelic.dev</a><br/>
 ------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file gets updated <b>every hour</b>!</br>
-Last update: 11/01/2026, 20:42:29 (GMT/UTC)
+Last update: 11/01/2026, 21:38:05 (GMT/UTC)
 </p>
