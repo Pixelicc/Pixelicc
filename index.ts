@@ -69,13 +69,13 @@ try {
     homelabStorage: homelabDisks,
 
     homelabPower: homelabMetrics.power.currentUsage,
-    homelabCpuUsed: homelabMetrics.cpu.usedPercentage.toFixed(2),
+    homelabCpuUsed: homelabMetrics.cpu.usedPercentage.toFixed(1),
     homelabRamTotal: homelabMetrics.ram.capacity,
-    homelabRamUsed: homelabMetrics.ram.usedCapacity.toFixed(2),
+    homelabRamUsed: homelabMetrics.ram.usedCapacity.toFixed(1),
     // @ts-ignore
     homelabDiskTotal: homelabMetrics.disks.reduce((acc, disk) => disk.capacity, 0),
     // @ts-ignore
-    homelabDiskUsed: homelabMetrics.disks.reduce((acc, disk) => disk.usedCapacity, 0).toFixed(2),
+    homelabDiskUsed: homelabMetrics.disks.reduce((acc, disk) => disk.usedCapacity, 0).toFixed(1),
 
     // @ts-ignore
     socials: socials.map((social) => (social.name !== "GitHub" ? `${social.name}: <a href="${social.url}">${social.text}</a><br/>` : "")).join("\n"),
