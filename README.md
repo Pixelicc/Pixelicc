@@ -3,7 +3,7 @@
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
 
-I currently live in Germany and it's 19:03 in the evening.<br />
+I currently live in Germany and it's 20:00 in the evening.<br />
 The weather here is clear with temperatures of 11.7 °C.
 
 In total I have coded for 1,031 hrs 13 mins with an average of 2 hrs 6 mins a day.
@@ -67,10 +67,10 @@ _Definitely not a configuration that I would recommend to normal users._
 
 <h3>Metrics:</h3>
 <p>
-  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-33W-green">
+  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-78W-green">
   </br></br>
-  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-4.7%25-orange">
-  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-44.9GB/80GB-blue">
+  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-72.8%25-orange">
+  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-45.3GB/80GB-blue">
   <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-926.6GB/2000GB-purple">
 </p>
 </details>
@@ -86,5 +86,5 @@ E-Mail: <a href="mailto://contact@pixelic.dev">contact@pixelic.dev</a><br/>
 ------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file gets updated <b>every hour</b>!</br>
-Last update: 15/05/2026, 17:03:49 (GMT/UTC)
+Last update: 15/05/2026, 18:00:59 (GMT/UTC)
 </p>
