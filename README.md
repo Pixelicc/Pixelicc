@@ -3,8 +3,8 @@
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
 
-I currently live in Germany and it's 14:02 in the afternoon.<br />
-The weather here is clear with temperatures of 12.1 °C.
+I currently live in Germany and it's 19:17 in the evening.<br />
+The weather here is clear with temperatures of 10.9 °C.
 
 In total I have coded for 1,197 hrs 40 mins with an average of 1 hr 58 mins a day.
 My best day was on 11/07/2023 with 12 hrs 8 mins.
@@ -70,9 +70,9 @@ _Definitely not a configuration that I would recommend to normal users._
 
 <h3>Metrics:</h3>
 <p>
-  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-33W-green">
+  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-38W-green">
   </br></br>
-  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-5.7%25-orange">
+  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-7.3%25-orange">
   <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-45.4GB/80GB-blue">
   <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-940.4GB/2000GB-purple">
 </p>
@@ -89,5 +89,5 @@ E-Mail: <a href="mailto://contact@pixelic.dev">contact@pixelic.dev</a><br/>
 ------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file gets updated <b>every 3 hours</b>!</br>
-Last update: 22/10/2026, 12:02:39 (GMT/UTC)
+Last update: 22/10/2026, 17:17:27 (GMT/UTC)
 </p>
