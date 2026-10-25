@@ -1,12 +1,12 @@
-<h1>Hii! I'm Pixelic 😇<img src="https://hit.yhype.me/github/profile?user_id=69585766"></h1>
+<h1>Hii! I'm Pixelic 👀<img src="https://hit.yhype.me/github/profile?user_id=69585766"></h1>
 
 <p>
 I'm a mainly back-end developer that occasionally does some front-end.
 
-I currently live in Germany and it's 05:52 during the night.<br />
-The weather here is rainy 🌧️ with temperatures of 11.9 °C.
+I currently live in Germany and it's 12:43 in the morning.<br />
+The weather here is clear with temperatures of 13.7 °C.
 
-In total I have coded for 1,199 hrs 16 mins with an average of 1 hr 58 mins a day.
+In total I have coded for 1,200 hrs 10 mins with an average of 1 hr 58 mins a day.
 My best day was on 11/07/2023 with 12 hrs 8 mins.
 </p>
 
@@ -70,10 +70,10 @@ _Definitely not a configuration that I would recommend to normal users._
 
 <h3>Metrics:</h3>
 <p>
-  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-39W-green">
+  <img alt="Power Usage" src="https://img.shields.io/badge/Power_Usage-42W-green">
   </br></br>
-  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-5.6%25-orange">
-  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-45.4GB/80GB-blue">
+  <img alt="CPU Usage" src="https://img.shields.io/badge/CPU_Usage-7.9%25-orange">
+  <img alt="Memory Usage" src="https://img.shields.io/badge/Ram_Usage-45.6GB/80GB-blue">
   <img alt="Disk Usage" src="https://img.shields.io/badge/NVME_Disk_Usage-941.2GB/2000GB-purple">
 </p>
 </details>
@@ -89,5 +89,5 @@ E-Mail: <a href="mailto://contact@pixelic.dev">contact@pixelic.dev</a><br/>
 ------------------------------------------------------------------
 <p align="center">
 This <b>README.md</b> file gets updated <b>every 3 hours</b>!</br>
-Last update: 25/10/2026, 04:52:44 (GMT/UTC)
+Last update: 25/10/2026, 11:43:10 (GMT/UTC)
 </p>
