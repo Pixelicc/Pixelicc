@@ -1,0 +1,12 @@
+[Unit]
+Description=Regenerate Profile README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+EnvironmentFile=/etc/readme/.env
+ExecStart=/opt/readme/Pixelicc/scripts/update-readme.sh
+
+[Install]
+WantedBy=multi-user.target
