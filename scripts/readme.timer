@@ -1,9 +1,0 @@
-[Unit]
-Description=Hourly Pixelicc README.md regeneration
-
-[Timer]
-OnCalendar=*-*-* *:*:00
-Persistent=true
-
-[Install]
-WantedBy=timers.target
