@@ -21,7 +21,5 @@ if git diff --quiet -- README.md; then
 fi
 
 git add README.md
-git -c user.name="github-actions" \
-  -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
-  commit -m "Updated \`README.md\` File"
+git commit -m "Updated \`README.md\` File"
 git push
